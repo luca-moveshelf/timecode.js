@@ -1,6 +1,7 @@
-# timecode.js
+# timecode.js without window references
 
-This is a JavaScript module for manipulating SMPTE timecodes.
+This is a  fork of `timecode.js`, aJavaScript module for manipulating SMPTE timecodes.
+This fork is to remove the usage of the `window` browser object, facilitating its backend usages.
 
 It is primarily based on [pytimecode](http://code.google.com/p/pytimecode/).
 
